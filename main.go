@@ -16,8 +16,8 @@ import (
 //go:embed dist/*
 var embeddedFS embed.FS
 
-const domainName = "sample-page.uz."
-var serverIP = "192.168.0.100" // change this to your real LAN IP
+const domainName = "ddd.uz."
+var serverIP = "192.168.100.191" // change this to your real LAN IP
 
 
 func startHTTP() {
